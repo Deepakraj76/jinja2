@@ -59,7 +59,7 @@ email_content = template.render(
 )
 
 # Load environment variables
-genai.configure(api_key="")  # Make sure to set this in your environment
+genai.configure(api_key="AIzaSyC-onsUqc_veajLrXKnr5g3iUJiduyTnQg")  # Make sure to set this in your environment
 
 def get_gemini_response(prompt):
     model = genai.GenerativeModel('gemini-pro')
